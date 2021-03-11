@@ -11,4 +11,4 @@ spec:
     targetPort: 8090
   selector:
     app: nginx
-  type: LoadBalancer
+  type: NodePort
