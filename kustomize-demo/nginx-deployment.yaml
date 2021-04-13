@@ -6,6 +6,7 @@ metadata:
   name: nginx
 spec:
   replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
@@ -15,5 +16,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: xmaeltht/nginx
+      - image: armand0007/web-armand
         name: nginx
