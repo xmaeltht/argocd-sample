@@ -15,5 +15,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: xmaeltht/nginx
+      - image: armand0007/web-armand
         name: nginx
